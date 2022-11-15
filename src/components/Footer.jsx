@@ -11,14 +11,14 @@ function Footer() {
   ];
   return (
     <div className=" w-[100%] h-[100%] bg-[#270F33]  flex flex-wrap items-center justify-around p-[5%]">
-      <div className=" w-[50%] px-10 py-5 flex flex-col justify-center gap-[1.375rem] border-2  border-[#FBD07A] rounded-[19px]">
+      <div className=" md:w-[50%] px-10 py-5 flex flex-col justify-center gap-[1.375rem] border-2  border-[#FBD07A] rounded-[19px]">
         <h1 className="text-[white] text-[1.5rem] font-[500]">
           Get Event Updates
         </h1>
 
-        <div className="relative flex w-[100%]  justify-end items-center">
+        <div className="relative flex w-[100%] box-border justify-end items-center">
           <input
-            className="  w-[100%] h-[5.5rem] px-5  rounded-[7px] box-border   "
+            className=" h-[100px]   w-[100%] md:h-[5.5rem] md:px-5  rounded-[7px] box-border   "
             type="email"
             placeholder="Enter email address"
           />

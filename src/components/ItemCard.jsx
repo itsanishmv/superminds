@@ -30,12 +30,12 @@ function ItemCard({ img, title, p1, p2, ticketPrice, time, date }) {
             <img className="h-3" src={icon2} alt="img" />
             <h3 className="text-[0.75rem] font-[400]">{time}</h3>
           </div>
-          <div className="flex gap-[1.5rem] items-start ">
+          <div className="flex md:gap-[1.5rem] gap-[1rem] w-[100%]  items-start ">
             <div className="flex gap-[0.5rem] items-center">
               <img className=" h-3" src={icon3} alt="img" />
               <h3 className="text-[1rem] font-[400]">{date}</h3>
             </div>
-            <button className="bg-[#FBD07A] text-black rounded-md text-sm px-4 py-2  ">
+            <button className="bg-[#FBD07A] text-black font-semibold md:text-[1rem] md:w-[40%]  rounded-md text-sm px-[2%] py-2  ">
               Book now
             </button>
           </div>
